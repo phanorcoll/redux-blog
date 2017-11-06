@@ -1,0 +1,54 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+@import "node_modules/bootstrap/scss/bootstrap";
+$font-color:#2B3B43;
+$font-main-color:#fff;
+$top-bg:#2CB8E1;
+body {
+    background: #fff;
+    color: $font-main-color;
+    font-weight: inherit;
+}
+
+.container-fluid {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: $top-bg;
+    overflow: hidden;
+    height: 440px;
+    .container {
+        .top {
+            .bg {
+                position: absolute;
+                z-index: 1;
+                width: 777px;
+                height: 777px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                top: -160px;
+            }
+            h1 {
+                font-size: 96px;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 20px;
+                padding-top: 12%;
+            }
+            h3 {
+                font-size: 20px;
+                text-align: center;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.dina-text {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    color: $font-color;
+}

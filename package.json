@@ -1,0 +1,63 @@
+{
+    "name": "redux_booklist",
+    "version": "1.0.0",
+    "description": "Initial structure for a Reactjs Redux app",
+    "main": "webpack.config.js",
+    "scripts": {
+        "dev": "webpack-dashboard -- webpack-dev-server --open --config webpack.dev.js",
+        "build": "NODE_ENV='production' webpack --progress --config webpack.prod.js",
+        "deploy": "npm run build && firebase deploy",
+        "firebase-init": "firebase login && firebase init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/phanorcoll/dazero.git"
+    },
+    "keywords": [
+        "redux",
+        "reactjs",
+        "bootstrap",
+        "sass",
+        "fontawesome",
+        "webpack-dashboard"
+    ],
+    "author": "Phanor Coll <phanorcoll@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/phanorcoll/dazero/issues"
+    },
+    "homepage": "https://github.com/phanorcoll/dazero#readme",
+    "dependencies": {
+        "prop-types": "^15.6.0",
+        "query-string": "^5.0.1",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-redux": "^5.0.6",
+        "redux": "^3.7.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "bootstrap": "^4.0.0-beta.2",
+        "clean-webpack-plugin": "^0.1.17",
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^1.1.5",
+        "firebase-tools": "^3.14.0",
+        "font-awesome": "^4.7.0",
+        "html-webpack-plugin": "^2.30.1",
+        "image-webpack-loader": "^3.4.2",
+        "node-sass": "^4.5.3",
+        "redux-promise": "^0.5.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.0",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.8.1",
+        "webpack-dashboard": "^1.0.0",
+        "webpack-dev-server": "^2.9.4",
+        "webpack-merge": "^4.1.1"
+    }
+}
