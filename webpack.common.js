@@ -60,7 +60,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: 'app/index.html',
-            title: '{ dazero } - initial boilerplate code for Reactjs apps',
+            title: 'Reacjt Redux Blog',
             inject: 'body'
         })
     ]
