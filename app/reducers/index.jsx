@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import TestReducer from './reducer_test.jsx';
+import PostsReducer from './reducer_posts.jsx';
 
 const rootReducer = combineReducers({
-    test: TestReducer
+    posts: PostsReducer
 });
 
 export default rootReducer;
