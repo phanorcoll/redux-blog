@@ -7,7 +7,7 @@ import promise from 'redux-promise';
 
 import reducers from './reducers/index.jsx';
 import PostsIndex from './containers/posts_index.jsx';
-import PostsNew from './components/posts_new.jsx';
+import PostsNew from './containers/posts_new.jsx';
 
 import style from './scss/main.scss'
 
