@@ -10,45 +10,6 @@ body {
     font-weight: inherit;
 }
 
-.container-fluid {
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    background: $top-bg;
-    overflow: hidden;
-    height: 440px;
-    .container {
-        .top {
-            .bg {
-                position: absolute;
-                z-index: 1;
-                width: 777px;
-                height: 777px;
-                left: 0;
-                right: 0;
-                margin-left: auto;
-                margin-right: auto;
-                top: -160px;
-            }
-            h1 {
-                font-size: 96px;
-                text-align: center;
-                font-weight: bold;
-                margin-bottom: 20px;
-                padding-top: 12%;
-            }
-            h3 {
-                font-size: 20px;
-                text-align: center;
-                font-weight: 400;
-            }
-        }
-    }
-}
-
-.dina-text {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 28px;
-    color: $font-color;
+form a{
+    margin-left: 5px;
 }
