@@ -7,3 +7,4 @@ design
 .firebaserc
 firebase.json
 .idea
+*.iml
