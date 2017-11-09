@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/phanorcoll/dazero.git"
+        "url": "git+ssh://git@github.com/phanorcoll/redux-blog.git"
     },
     "keywords": [
         "redux",
@@ -24,9 +24,9 @@
     "author": "Phanor Coll <phanorcoll@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/phanorcoll/dazero/issues"
+        "url": "https://github.com/phanorcoll/redux-blog/issues"
     },
-    "homepage": "https://github.com/phanorcoll/dazero#readme",
+    "homepage": "https://github.com/phanorcoll/redux-blog#readme",
     "dependencies": {
         "prop-types": "^15.6.0",
         "query-string": "^5.0.1",
